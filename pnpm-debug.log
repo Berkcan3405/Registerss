@@ -1,0 +1,319 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "bot.js"
+      scripts: 
+        start: "node bot.js"
+      dependencies: 
+        common-tags: "^1.8.0"
+        cpu-stat: "^2.0.1"
+        db: "^1.1.1"
+        dbl: "^0.1.12"
+        dblapi.js: "^2.3.0"
+        express: "^4.17.1"
+        fs: "^0.0.1-security"
+        moment: "^2.24.0"
+        moment-duration-format: "^2.3.2"
+        node-superfetch: "^0.1.9"
+        os: "^0.1.1"
+        parse-ms: "^2.1.0"
+        quick.db: "^7.0.0"
+        discord: "^11.6.0"
+        winston: "^3.2.1"
+        snekfetch: "^4.0.4"
+        config.js: "^0.1.0"
+        configg.js: "^2.1.1"
+      engines: 
+        node: "8.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "4147a1d5ef3e0e72697125b28f63c3f9f282f2e4"
+      readme: "ERROR: No README data found!"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/common-tags/1.8.0"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cpu-stat/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/db/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dbl/0.1.12"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:deprecation: 
+    deprecated: "Module is no longer maintained"
+    depth: 0
+    pkgId: "registry.npmjs.org/dblapi.js/2.4.1"
+    pkgName: "dblapi.js"
+    pkgVersion: "2.4.1"
+    prefix: "/app"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dblapi.js/2.4.1"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.17.1"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fs/0.0.1-security"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment/2.24.0"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/moment-duration-format/2.3.2"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-superfetch/0.1.10"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/os/0.1.1"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parse-ms/2.1.0"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/winston/3.3.3"
+    requester: "/app"
+    status: "resolved"
+  18 debug pnpm:deprecation: 
+    deprecated: "use node-fetch instead"
+    depth: 0
+    pkgId: "registry.npmjs.org/snekfetch/4.0.4"
+    pkgName: "snekfetch"
+    pkgVersion: "4.0.4"
+    prefix: "/app"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/4.0.4"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick.db/7.1.3"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/config.js/0.1.0"
+    requester: "/app"
+    status: "resolved"
+  22 error pnpm: 
+    message: "No matching version found for discord@>=11.6.0 <12.0.0"
+    code: "ERR_PNPM_NO_MATCHING_VERSION"
+    packageMeta: 
+      name: "discord"
+      dist-tags: 
+        latest: "0.8.2"
+      versions: 
+        0.4.0: 
+          name: "discord"
+          version: "0.4.0"
+          dependencies: 
+            mootools: "1.3.2"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+          dist: 
+            shasum: "ca8b1dd5bb4a3c01351c6920b0d0e72538ac0cb8"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.4.0.tgz"
+            integrity: "sha512-F9PauXI3RXX8JqnFN7CfSeAEwcEVDszZOgfv/ZJaxTVrfFOYS+9GjSRlzWRmyTsKWlLGu833Saq/nlzOIZ6mxA=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEQCIFHE3WXWzxgskVAGxsZpV7T/XLcGtc/Eq0SqmR63SeFcAiAJ5s3QmPNMmcZNP8ibWPM4ygOFhhK5ADzM62H81cNyJA=="
+          engines: 
+            node: "*"
+        0.5.0: 
+          name: "discord"
+          version: "0.5.0"
+          dependencies: 
+            mootools: "1.3.2"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+          dist: 
+            shasum: "9b27ebf269b747ef41fa6952c932703659a822c5"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.5.0.tgz"
+            integrity: "sha512-8VqdPfxpOBVk3eGy7Wokdtznkmy5tXJldIx2jFkZF809MJrLU6BMz3lCccym4NaZvgP/5NInEUtXqZE83GwHbA=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEUCIQD0iMCE+9dMk3aO/vCxHRCvmC/ketuR1cT3vK5iy4QopAIgOSXGWV3F8yb7FdsTG1XbEnn3lqUOJ3SUWaqQSOZ+BWs="
+          engines: 
+            node: "*"
+        0.6.0: 
+          name: "discord"
+          version: "0.6.0"
+          dependencies: 
+            mootools: "1.3.2"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+          dist: 
+            shasum: "0d791031ec284706a5c41b36c8bac62a1a9b7c13"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.6.0.tgz"
+            integrity: "sha512-pEU7Z3FMM7AAmuMSDobshl4DNz5ompJhlaDK7K05/tvopPfUiSxUunmEdsb8NdAVjumEr+HNQbDrHTeIL3f4Kg=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEYCIQDIKbbGNT2GQ27l7IZaj5Iocdrku/YIvqF2hhrh1prpOwIhAOr47XYVrQpFVNc7E03duOydAQ1Si8hlXHCpRm0EMl4j"
+          engines: 
+            node: "*"
+        0.6.1: 
+          name: "discord"
+          version: "0.6.1"
+          dependencies: 
+            mootools: "1.3.2"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+          dist: 
+            shasum: "440f817fee597ce90bb85fe93b81bf97538b58e0"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.6.1.tgz"
+            integrity: "sha512-ABI+/mRrUHoWNoOf9CzSB4bbew22M54ywVhwBDsvfrYYGTbLT3XqrSNbzhT601YhXHydAttLEqHtXw1uL5vPfA=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEYCIQCJGQV78PLXVMnSOWWXnUl7erZreMNJW50OlzR3c2/nJAIhALn+XHJVlui8gd6p5MtVB4c8q/ojX3vUeOFvw48HSpnv"
+          engines: 
+            node: "*"
+        0.6.2: 
+          name: "discord"
+          version: "0.6.2"
+          dependencies: 
+            mootools: "1.3.2"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+          dist: 
+            shasum: "ecad025d20e2ac71c194ea7cc98fa3b9fb008d58"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.6.2.tgz"
+            integrity: "sha512-9ZeiBKelsESplN8q9H4ve+D4AqYAUZlucRKhDI3zyXXX17aZZX+IN/1bNvW9p+q5AUGaQALTHZMr05e/Krq9hQ=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEQCIAbxqO77VYn008Zpo9rNsGNN9IXZxjWRqM6zd0Xl5pXKAiA9EkdT12BnMFqQD/2RwOy/eSKHhSa8am7H2VdPA2caiA=="
+          engines: 
+            node: "*"
+        0.6.3: 
+          name: "discord"
+          version: "0.6.3"
+          dependencies: 
+            mootools: "1.3.2"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+          dist: 
+            shasum: "4c875cf136f0395f7486e65dcbd835b0644cea26"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.6.3.tgz"
+            integrity: "sha512-i/vRkKCLWuOEEGjvqi7WrG5fAjp4qZRjByOkJMaJiJWw0qTjfdK1yCm6qe4bmukVzBolUspkFs5tgs1s4AxljQ=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEUCIQDv0Nb54Z0vS8RQ/38FRpJq0oy359/Oe6fTzZB3piOaIgIgH55DkJ7w2R1iW1jXzaDoNnWUAwRZNiEm5KW9nLPrsK4="
+          engines: 
+            node: "*"
+        0.7.1: 
+          name: "discord"
+          version: "0.7.1"
+          dependencies: 
+            mootools: ">=1.4.4"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+            glob: ">3.0.1"
+          dist: 
+            shasum: "0fbac48f610d5a8ec4b20275d1da5178de6b5236"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.7.1.tgz"
+            integrity: "sha512-5AestrfA16p9qXZ1qRbIrEI6cfR4jJQjKZzuN00gG9rrAcnl7htpQ0uZVpM0/hJLjpzY7zlgp42zN41fGRm+Xg=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEYCIQDBoI9V7vFVV6Q8AcpMA5ZvuML1CuaplJlNeOe3yjYCuAIhAKOJWvo8BR8nU3Ju2/H9GoUOGd1Daw2RzpLMgLJXvBDR"
+          engines: 
+            node: "*"
+        0.6.4: 
+          name: "discord"
+          version: "0.6.4"
+          dependencies: 
+            mootools: "1.3.2"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+            glob: ">3.0.1"
+          dist: 
+            shasum: "5cf88ef6c80568167b6002a35952f1651e6dce79"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.6.4.tgz"
+            integrity: "sha512-EtT214f6KJinHkkih0l9h3tzG3HiJhsFDAs9CSYnPspiNf+bRPd9X1OsTfx2eqjP4BaAx+g01uZPBlsx+YdRWQ=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEQCIGn6sHVeKiB/2uv+z5whbky+mlmzlseyfBepCjPNy+0/AiAbsybxN3uoX7K8G5zReLyc6C/LL4bq4JI1mtj2t3p0SQ=="
+          engines: 
+            node: "*"
+        0.8.0: 
+          name: "discord"
+          version: "0.8.0"
+          dependencies: 
+            mootools: ">=1.4.4"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+            glob: ">3.0.1"
+          dist: 
+            shasum: "5d9dba9fda3883bd62be65b82c891727d17efdc0"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.8.0.tgz"
+            integrity: "sha512-XvPe7kAS5VhQd/aUZb36UYiScF38ZB8XvORZyOxyZd4denk3N7I+f2iS3vABhNYWehcNTtAQF6FRFBRPFG5dgg=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEUCIHZEQIzn4aFsYWnQ9b4lbCysb9L/K8iofXsORN9uAGUWAiEAg8xBn204rDpX2bldvBSrFLXJA23qLA+U13qW1mbM2dU="
+          engines: 
+            node: "*"
+        0.8.2: 
+          name: "discord"
+          version: "0.8.2"
+          dependencies: 
+            mootools: ">=1.4.4"
+            describe: ">=0.8.0"
+            string-color: ">=0.8.0"
+            glob: ">3.0.1"
+          dist: 
+            shasum: "8cb3ebf9f2e90594554d0c3734c99af87bb0b770"
+            tarball: "https://registry.npmjs.org/discord/-/discord-0.8.2.tgz"
+            integrity: "sha512-n8uOSuwvh+JLS3nrU/Jjom7TYX3jpAueTQ4NSQLf+SMsBZAjdzll4+zwYxxHxH7hvngmT12P0zP08dfHGh1xmQ=="
+            signatures: 
+              - 
+                keyid: "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+                sig: "MEYCIQCjKoei3m8p8M29JL9tBfxFckJgXAnMoqATdad+apFj9QIhANlO8lBCMF1gX2xH1beSPDyX1arjiYZ8lN4LQjgZCgQq"
+          engines: 
+            node: "*"
+      modified: "2022-06-15T04:50:13.707Z"
+      cachedAt: 1659618252896
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/common-tags/1.8.0"
+    requester: "/app"
+    status: "found_in_store"
